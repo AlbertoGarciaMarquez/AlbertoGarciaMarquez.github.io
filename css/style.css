@@ -441,7 +441,7 @@ nav a:hover:after {
 
 /*-- about --*/
 
-.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .address {
+.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .for-w3l, .address {
 	padding: 5em 0;
 }
 
@@ -1446,7 +1446,25 @@ a.accordion-section-title span {
 }
 
 /*-- //introduce --*/
+.for-w3l {
+	background: url(../images/4.jpg)no-repeat 0px 0px fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+}
 
+.for-w3l h3 {
+	color: #fff;
+	font-size: 3.5em;
+}
+
+.for-w3l p {
+	color: #fff;
+	font-size: 1.4em;
+	padding-top: 1em;
+}
 /*-- footer --*/
 
 .footer {
@@ -1803,7 +1821,7 @@ a.accordion-section-title span {
 		font-size: 3.1em;
 		margin-bottom: 1.1em;
 	}
-	.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .address {
+	.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .for-w3l, .address {
 		padding: 4em 0;
 	}
 	.stats_grid_right {
@@ -1820,6 +1838,9 @@ a.accordion-section-title span {
 		font-size: 1.4em;
 	}
 	.confi-w3l p {
+		font-size: 1.1em;
+	}
+	.for-w3l p {
 		font-size: 1.1em;
 	}
 }
@@ -1955,6 +1976,12 @@ a.accordion-section-title span {
 	.confi-w3l p {
 		font-size: 1.05em;
 	}
+	.for-w3l h3 {
+		font-size: 3em;
+	}
+	.for-w3l p {
+		font-size: 1.1em;
+	}
 	.address h3.w3l-title:after {
 		left: 35%;
 	}
@@ -2024,6 +2051,9 @@ a.accordion-section-title span {
 		font-size: 1.8em;
 	}
 	.confi-w3l p {
+		font-size: 1em;
+	}
+	.for-w3l p {
 		font-size: 1em;
 	}
 	.address h3.w3l-title:after {
@@ -2102,7 +2132,7 @@ a.accordion-section-title span {
 	.banner-text h2 span {
 		font-size: 1.6em;
 	}
-	.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .address {
+	.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .for-w3l, .address {
 		padding: 3em 0;
 	}
 	h3.w3l-title:after {
@@ -2165,6 +2195,12 @@ a.accordion-section-title span {
 		font-size: .95em;
 	}
 	.confi-w3l h3 {
+		font-size: 2.8em;
+	}
+	.for-w3l p {
+		font-size: .95em;
+	}
+	.for-w3l h3 {
 		font-size: 2.8em;
 	}
 	.address h3.w3l-title:after {
@@ -2414,7 +2450,7 @@ a.accordion-section-title span {
 	h3.w3l-title {
 		font-size: 2.2em;
 	}
-	.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .address {
+	.about, .stats, .services, .intra-w3l, .services-w3l, .portfolio, .experience, .confi-w3l, .for-w3l, .address {
 		padding: 2.5em 0;
 	}
 	.w3ls-agile-left-info h4, .social-info h4 {
@@ -2461,6 +2497,12 @@ a.accordion-section-title span {
 		font-size: .9em;
 	}
 	.confi-w3l h3 {
+		font-size: 2.3em;
+	}
+	.for-w3l p {
+		font-size: .9em;
+	}
+	.for-w3l h3 {
 		font-size: 2.3em;
 	}
 	.address-grid {
